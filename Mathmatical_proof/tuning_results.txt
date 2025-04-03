@@ -1,0 +1,24 @@
+Altitude contoller (pd)
+Plant =
+ 
+  A = 
+             ub,vb,wb  xe,ye,ze
+   ub,vb,wb         1         0
+   xe,ye,ze     0.005         1
+ 
+  B = 
+             PID Controll
+   ub,vb,wb       0.07937
+   xe,ye,ze     0.0001984
+ 
+  C = 
+                 ub,vb,wb  xe,ye,ze
+   PID Controll         0         1
+ 
+  D = 
+                 PID Controll
+   PID Controll             0
+ 
+Sample time: 0.005 seconds
+Discrete-time state-space model.
+
