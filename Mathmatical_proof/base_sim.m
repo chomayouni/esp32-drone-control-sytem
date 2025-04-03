@@ -2,6 +2,10 @@
 % This simulation models the drone dynamics based on the Carbon Aeronautics Quadcopter Manual
 % It implements a linear model that can be used to tune a 3D simulation in Simulink
 
+% This was the starting simulation that I put all of the math into. It does not do much, but it is a good starting point for the rest of the simulations.
+% It is a linear model that can be used to tune a 3D simulation in Simulink.
+% I split the simulation into two parts: the first part is the linear model, and the second part is the PID controller.
+
 %% Parameters and Constants
 % Simulation time parameters
 Ts = 0.004;                % Sample time (250 Hz control loop as per p.96)
